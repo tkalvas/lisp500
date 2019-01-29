@@ -8,14 +8,14 @@ fixing some of the problems in usefulness.
 
 ## compilation
 
-gcc -m32 -o lisp500 lisp500.c
+```gcc -m32 -o lisp500 lisp500.c```
 or
-clang -m32 -o lisp500 lisp500.c
+```clang -m32 -o lisp500 lisp500.c```
 
 (It's really nothing but assumptions that the word size is 32 bits so -m32 is required.)
 
 ## running
 
-./lisp500 init500.lisp
+```./lisp500 init500.lisp```
 
 You can also run just ./lisp500 and use the barebones version.
