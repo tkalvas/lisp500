@@ -19,9 +19,3 @@ clang -m32 -o lisp500 lisp500.c
 ./lisp500 init500.lisp
 
 You can also run just ./lisp500 and use the barebones version.
-
-## issues
-
-The last three symbols (JREF, RUN-PROGRAM, UNAME) seem to be uninitialized even though the count is correct.
-Has there been a bug there always, and it has just become uncovered by compiler advances? Couldn't tell at first
-glance what would overwrite them. This means init500 does not work, so I have to fix it.
