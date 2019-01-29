@@ -7,10 +7,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#ifdef __MACH__
-#define setjmp(e) sigsetjmp(e, 0)
-#define longjmp siglongjmp
-#endif
 #ifdef _WIN32
 #include <windows.h>
 #define X __declspec(dllexport)
