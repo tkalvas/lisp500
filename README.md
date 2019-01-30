@@ -12,6 +12,8 @@ fixing some of the problems in usefulness.
 or
 ```clang -m32 -o lisp500 lisp500.c```
 
+For linux add ```-lm -ldl```
+
 (It's really nothing but assumptions that the word size is 32 bits so -m32 is required.)
 
 ## running
